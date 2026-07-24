@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Cats vs Dogs Image Classifier</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🐱 Cats vs Dogs Classifier</h1>
+
+        <p class="subtitle">
+            Machine Learning using HOG Features & Support Vector Machine
+        </p>
+
+        <!-- ========================= -->
+        <!-- Image Section -->
+        <!-- ========================= -->
+
+        <div class="image-card">
+
+            <img
+                id="image"
+                src=""
+                alt="Prediction Image">
+
+        </div>
+
+        <!-- ========================= -->
+        <!-- Button -->
+        <!-- ========================= -->
+
+        <button id="generateBtn">
+
+            🔄 Generate Random Image
+
+        </button>
+
+        <!-- ========================= -->
+        <!-- Prediction Cards -->
+        <!-- ========================= -->
+
+        <div class="results">
+
+            <h2>Prediction Results</h2>
+
+            <div class="result-grid">
+
+                <div class="card">
+
+                    <h3>🐶 Prediction</h3>
+
+                    <p id="prediction">
+
+                        -
+
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>🏷 Actual Label</h3>
+
+                    <p id="actual">
+
+                        -
+
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>✅ Status</h3>
+
+                    <p id="status">
+
+                        -
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ========================= -->
+        <!-- Model Information -->
+        <!-- ========================= -->
+
+        <div class="info">
+
+            <div class="info-box">
+
+                <h4>🤖 Model</h4>
+
+                <p>
+
+                    Support Vector Machine
+
+                </p>
+
+            </div>
+
+            <div class="info-box">
+
+                <h4>📊 Feature Extraction</h4>
+
+                <p>
+
+                    Histogram of Oriented Gradients (HOG)
+
+                </p>
+
+            </div>
+
+            <div class="info-box">
+
+                <h4>🖼 Image Size</h4>
+
+                <p>
+
+                    64 × 64 Pixels
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
